@@ -13,6 +13,7 @@
 		9F2F5C5C29237B4200F5C922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F5C5A29237B4200F5C922 /* Main.storyboard */; };
 		9F2F5C5E29237B4300F5C922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F5C5D29237B4300F5C922 /* Assets.xcassets */; };
 		9F2F5C6129237B4300F5C922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F5C5F29237B4300F5C922 /* LaunchScreen.storyboard */; };
+		9F2F5C6929237BF000F5C922 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F5C6829237BF000F5C922 /* toy_biplane.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9F2F5C5B29237B4200F5C922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F2F5C5D29237B4300F5C922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F2F5C6029237B4300F5C922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F2F5C6829237BF000F5C922 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		9F2F5C5329237B4200F5C922 /* ModelTest */ = {
 			isa = PBXGroup;
 			children = (
+				9F2F5C6729237B8900F5C922 /* Models */,
 				9F2F5C5429237B4200F5C922 /* AppDelegate.swift */,
 				9F2F5C5629237B4200F5C922 /* ViewController.swift */,
 				9F2F5C5829237B4200F5C922 /* Experience.rcproject */,
@@ -63,6 +66,14 @@
 				9F2F5C5F29237B4300F5C922 /* LaunchScreen.storyboard */,
 			);
 			path = ModelTest;
+			sourceTree = "<group>";
+		};
+		9F2F5C6729237B8900F5C922 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F5C6829237BF000F5C922 /* toy_biplane.usdz */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				9F2F5C6129237B4300F5C922 /* LaunchScreen.storyboard in Resources */,
 				9F2F5C5E29237B4300F5C922 /* Assets.xcassets in Resources */,
+				9F2F5C6929237BF000F5C922 /* toy_biplane.usdz in Resources */,
 				9F2F5C5C29237B4200F5C922 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
